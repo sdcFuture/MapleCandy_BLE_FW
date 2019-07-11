@@ -1,0 +1,27 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables
+C_SRCS += \
+C:/BLE_Renesas/checkout_rBLE_Modem_Source_Code/rBLE/src/sample_profile/fwup/fwupr.c 
+
+COMPILER_OBJS += \
+Project_Source/rBLE/src/sample_profile/fwup/fwupr.obj 
+
+C_DEPS += \
+Project_Source/rBLE/src/sample_profile/fwup/fwupr.d 
+
+# Each subdirectory must supply rules for building sources it contributes
+Project_Source/rBLE/src/sample_profile/fwup/fwupr.obj: C:/BLE_Renesas/checkout_rBLE_Modem_Source_Code/rBLE/src/sample_profile/fwup/fwupr.c 
+	@echo 'Scanning and building file: $<'
+	@echo 'Invoking: Scanner and Compiler'
+	@echo Project_Source\rBLE\src\sample_profile\fwup\fwuprcDepSubCommand.tmp=
+	@sed -e "s/^/ /" "Project_Source\rBLE\src\sample_profile\fwup\fwuprcDepSubCommand.tmp"
+	ccrl -subcommand="Project_Source\rBLE\src\sample_profile\fwup\fwuprcDepSubCommand.tmp" -msg_lang=english "$<"
+	@echo Project_Source\rBLE\src\sample_profile\fwup\fwuprcSubCommand.tmp=
+	@sed -e "s/^/ /" "Project_Source\rBLE\src\sample_profile\fwup\fwuprcSubCommand.tmp"
+	ccrl -subcommand="Project_Source\rBLE\src\sample_profile\fwup\fwuprcSubCommand.tmp" -msg_lang=english "$<"
+	@echo 'Finished Scanning and building: $<'
+	@echo.
+

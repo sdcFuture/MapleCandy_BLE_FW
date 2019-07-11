@@ -1,0 +1,7 @@
+-form=hexadecimal
+-output="rBLE_Emb_CCRL.hex"
+-record=h20
+-byte_count=10
+-nomessage
+-logo
+-NOMessage

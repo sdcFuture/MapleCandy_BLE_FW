@@ -1,0 +1,19 @@
+-MM
+-MP
+-o "Project_Source/renesas/src/driver/plf/plf.d" 
+-MT="Project_Source/renesas/src/driver/plf/plf.obj" 
+-MT="Project_Source/renesas/src/driver/plf/plf.d"
+-cpu=S2 
+-dev="C:\Renesas\e2_studio\DebugComp\\RL78\RL78\Common\DR5F11AGJ.DVF"
+-I "C:\Program Files (x86)\Renesas\RL78\1_7_0\inc","..\..\..\..\..\..\src\driver\serial","..\..\..\..\..\..\src\driver\wakeup","..\..\..\..\..\..\src\driver\dataflash\cc_rl","..\..\..\..\..\..\src\driver\dataflash","..\..\..\..\..\..\src\driver\codeflash\cc_rl","..\..\..\..\..\..\src\driver\codeflash","..\..\..\..\..\..\src\driver\DTM2Wire","..\..\..\..\..\..\src\driver\push_sw","..\..\..\..\..\..\src\driver\pktmon","..\..\..\..\..\..\src","..\..\..\..\..\..\src\compiler","..\..\..\..\..\..\src\arch\rl78","..\..\..\..\..\..\src\arch\rl78\ll","..\..\..\..\..\..\src\driver\led","..\..\..\..\..\..\src\driver\peak","..\..\..\..\..\..\src\driver\plf","..\..\..\..\..\..\src\driver\port","..\..\..\..\..\..\src\driver\rf","..\..\..\..\..\..\src\driver\uart","..\..\..\..\..\..\..\bleip\src\common","..\..\..\..\..\..\..\bleip\src\rwble","..\..\..\..\..\..\..\rBLE\src\include"
+-D CFG_FULLEMB,USE_VUART_PROFILE,CFG_CON=4,CFG_EXMEM_NOT_PRESENT,CFG_BLECORE_10,CFG_PROFEMB,CFG_SECURITY_ON,CFG_RBLE,CFG_USE_EEL,CFG_FW_NAK,CONFIG_MODEM,_USE_CCRL_RL78,noUSE_SAMPLE_PROFILE,noCFG_USE_PEAK,noUSE_FW_UPDATE_PROFILE,CLK_HOCO_8MHZ,CLK_SUB_XT1,noCFG_PKTMON
+-character_set=sjis
+-lang=c
+-memory_model=medium
+-Osize
+-goptimize
+-signed_char
+-switch=binary
+-cref=DefaultBuild
+-convert_cc=ca78k0r
+-no_warning_num=23082 

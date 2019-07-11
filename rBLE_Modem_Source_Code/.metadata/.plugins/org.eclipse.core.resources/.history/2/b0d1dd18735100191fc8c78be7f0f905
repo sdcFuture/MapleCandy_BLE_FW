@@ -1,0 +1,11 @@
+-asmopt=-MM
+-asmopt=-MP
+-asmopt=-MF="Project_Source/renesas/src/compiler/ccrl/cstart.d"
+-asmopt=-MT="Project_Source/renesas/src/compiler/ccrl/cstart.obj"
+-asmopt=-MT="Project_Source/renesas/src/compiler/ccrl/cstart.d"
+-cpu=S2
+-c
+-dev="C:\Renesas\e2_studio\DebugComp\\RL78\RL78\Common\DR5F11AGJ.DVF"
+-character_set=sjis
+-goptimize
+-asmopt=-convert_asm 
